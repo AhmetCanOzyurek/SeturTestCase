@@ -1,2 +1,8 @@
-package driver;public enum Browser {
+package driver;
+
+public enum Browsers {
+    CHROME,
+    FIREFOX,
+    EDGE,
+    SAFARI;
 }

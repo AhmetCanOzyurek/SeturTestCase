@@ -5,21 +5,55 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f478558-415f-47e6-a991-ebecdb3a6381" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/driver/Browsers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/driver/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/driver/DriverFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/driver/DriverStatic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/readers/csv/CsvReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/readers/property/PropertyReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/readers/textFiles/TextFileReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SeturTatilPlanlamaSenaryoları/Antalya.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/hotelsPage/HotelsPageMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/hotelsPage/HotelsPageObjects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/mainPage/MainPageMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/mainPage/MainPageObjects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/datafiles/csv/tatilSehri.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/datafiles/property/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/datafiles/textFiles/RegionHotelsNum.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2dMOVEKXrXzCOBp6ChNKDn9RQnn" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
@@ -27,11 +61,104 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.PropertyReader.executor": "Run",
+    "Application.TextFileReader.executor": "Run",
+    "JUnit.Antalya.executor": "Run",
+    "JUnit.Antalya.goToUrl.executor": "Run",
+    "Maven.SeturTestiniumTestCase [clean].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/enesoncu/IdeaProjects/SeturTestiniumTestCase/src/test/resources/datafiles/csv",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/datafiles/csv" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/datafiles/Property" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.Antalya">
+    <configuration name="PropertyReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="readers.property.PropertyReader" />
+      <module name="SeturTestiniumTestCase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="readers.property.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TextFileReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="readers.textFiles.TextFileReader" />
+      <module name="SeturTestiniumTestCase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="readers.textFiles.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Antalya" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeturTestiniumTestCase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeturTatilPlanlamaSenaryoları.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeturTatilPlanlamaSenaryoları" />
+      <option name="MAIN_CLASS_NAME" value="SeturTatilPlanlamaSenaryoları.Antalya" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Antalya.goToUrl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeturTestiniumTestCase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeturTatilPlanlamaSenaryoları.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeturTatilPlanlamaSenaryoları" />
+      <option name="MAIN_CLASS_NAME" value="SeturTatilPlanlamaSenaryoları.Antalya" />
+      <option name="METHOD_NAME" value="goToUrl" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Antalya" />
+        <item itemvalue="Application.TextFileReader" />
+        <item itemvalue="JUnit.Antalya.goToUrl" />
+        <item itemvalue="Application.PropertyReader" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-20.0.2-azul-20.0.2-4caba194b151-895bf479" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
